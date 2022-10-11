@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Mono:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+
+
+:root {
+   --font-titulo: 'Rubik Maze', cursive;
+   --font-padrao: 'Roboto Mono', monospace;
+}
+
+* {
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    font-family: var(--font-padrao);
+}
+
+#titulo-principal {
+    font-family: var(--font-titulo);
+    font-size: 3.5em;
+    text-align: center;
+
+}
+
+header {
+    background-color: aqua;
+    width: 100%;
+    
+}
+
+.titulo {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav .navegation-link {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px; 
+}
+
+.navegation-link:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+
