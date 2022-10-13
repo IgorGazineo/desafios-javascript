@@ -76,7 +76,7 @@ main {
 }
 
 .section {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.866);
     max-width: 700px;
     margin: auto;
     padding: 20px;
@@ -90,6 +90,13 @@ main {
 
 #section1 a {
     color: var(--cor-azul-escuro1);
+    
+}
+
+#iniciante {
+    background-color: var(--cor-azul-escuro2);
+    color: #05C7F2;
+    text-shadow: 2px 2px 10px var(--cor-azul-claro);
     
 }
 
@@ -108,6 +115,12 @@ main {
 
 #section3 h2, h3, h4, p, a{
     padding: 10px;
+}
+
+#section3 h4 {
+    background-image: linear-gradient(to right, transparent, var(--cor-verde-claro), transparent);
+    max-width: 220px;
+    margin: 20px auto;
 }
 
 #section3 a {
