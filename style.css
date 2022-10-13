@@ -6,17 +6,25 @@
 
 
 :root {
+    --cor-rosa: #F229BD;
+    --cor-azul-escuro1: #021F59;
+    --cor-azul-escuro2: #021D40;
+    --cor-azul-claro: #05C7F2;
+    --cor-verde-claro: #05F2DB;
    --font-titulo: 'Rubik Maze', cursive;
    --font-padrao: 'Roboto Mono', monospace;
 }
 
 * {
     margin: 0;
+    text-decoration: none;
     list-style: none;
 }
 
 body {
+   
     font-family: var(--font-padrao);
+    background-color: var(--cor-azul-escuro2);
 }
 
 #titulo-principal {
@@ -27,7 +35,7 @@ body {
 }
 
 header {
-    background-color: aqua;
+    background-color: var(--cor-azul-claro);
     width: 100%;
     
 }
@@ -41,6 +49,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
+    background-color: var(--cor-azul-escuro1);
 }
 
 nav .navegation-link {
@@ -48,14 +57,79 @@ nav .navegation-link {
     justify-content: center;
     font-size: 1.2em;
     font-weight: bolder;
-    color: black;
+    color: white;
     text-decoration: none;
     text-align: center;
     padding: 5px; 
 }
 
 .navegation-link:hover {
-    background-color: red;
+    background-color: var(--cor-verde-claro);
+    color: var(--cor-azul-escuro2);
     border-radius: 10px;
+}
+
+main {
+    margin: auto;
+    max-width: 700px;
+    
+}
+
+.section {
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 15px black;
+}
+
+#section1 a {
+    color: var(--cor-azul-escuro1);
+    
+}
+
+#section1 a:hover {
+    text-decoration: underline;
+}
+
+#video1 {
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+#section2 h1 {
+   padding: 15px;
+}
+
+#section3 h2, h3, h4, p, a{
+    padding: 10px;
+}
+
+#section3 a {
+    color: var(--cor-rosa);
+}
+
+#section3 a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    color: #05F2DB;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
