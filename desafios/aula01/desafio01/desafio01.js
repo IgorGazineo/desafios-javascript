@@ -1,0 +1,1 @@
+alert('Bem-vindo(a) ao primeiro desafio da lista de exercícios de JS!')
