@@ -43,12 +43,12 @@
             <p>window.prompt('Qual é o seu nome?');</p>
             <p>O comando 'window.' e o sinal ';' no final, não são obrigatórios.</p> <br>
             <p>Desafios:</p>
-            <a href="desafios/desafio01/desafio01.html" target="_blank">Clique Aqui</a><br>
-            <a href="desafios/desafio02/desafio02.html" target="_blank">Clique Aqui</a><br>
-            <a href="desafios/desafio03/desafio03.html">Clique Aqui</a><br><br><hr>
+            <a href="desafios/desafio01/desafio01.html" target="_blank">01- Clique Aqui</a><br>
+            <a href="desafios/desafio02/desafio02.html" target="_blank">02- Clique Aqui</a><br>
+            <a href="desafios/desafio03/desafio03.html">03- Clique Aqui</a><br><br><hr>
 
             <h3>Tidos de Dados e Variáveis</h3>
-            <h4>Aula 02/03</h4>
+            <h4>Aula 02</h4>
             <p>Anotações:</p>
             <p>Comentários em JS:</p>
             <p>"//" Para comentários em 1 linha.</p>
@@ -82,10 +82,10 @@
             <p>function</p><br><br>
             <p>Comando para identificar o tipo de dado:</p>
             <p>typeof (ex: typeof 20 --> number, typeof false --> boolean)</p><br>
-            <p>Desafios:</p>
-            <a href="desafios/desafio04/desafio04.html">Clique Aqui</a> <br>
-            <a href="desafios/desafio05/desafio05.html" target="_blank">Clique Aqui</a> <br>
-            <a href="desafios/desafio06/desafio06.html" target="_blank">Clique Aqui</a> <br><br><hr>
+            <p>Desafios:</p><p>(exige conhecimento da aula 03)</p>
+            <a href="desafios/desafio04/desafio04.html">04- Clique Aqui</a> <br>
+            <a href="desafios/desafio05/desafio05.html" target="_blank">05- Clique Aqui</a> <br>
+            <a href="desafios/desafio06/desafio06.html" target="_blank">06- Clique Aqui</a> <br><br><hr>
 
             <h3>Manipulação de Dados</h3>
             <h4>Aula 03</h4>
@@ -103,13 +103,30 @@
             <p>var n1 = Number(prompt('Digite um número'))</p>
             <p>var n2 = Number(prompt('Digite mais um número'))</p>
             <p>var res = n1 + n2</p>
-            <p>window.alert('A soma dos números é: ' + res)</p>
+            <p>window.alert('A soma dos números é: ' + res)</p><br><br>
+            <p>Convertendo número para string:</p>
+            <p>Comandos: String(n) / n.toString()</p><br><br>
+            <p>Formatando strings:</p>
+            <p>var s= 'JavaScript'</p>
+            <p>"Estou aprendendo + s" // não faz interpolação</p>
+            <p>'Estou aprendendo' + s // faz concatenação</p>
+            <p>`Estou aprendendo ${s}` // template string (com placeholder -&gt; ${})</p>
+            <p>s.length --&gt; // quantos caracteres (letras, símbolos ou números) a string tem</p>
+            <p>s.toUpperCase() --&gt; // tudo para "MAIÚSCULAS"</p>
+            <p>s.toLowerCase() --&gt; // tudo para "minúsculas"</p><br><br>
+            <p>Formatando números</p>
+            <p>var n1 = 1543.5</p>
+            <p>n1.toFixed(2) --&gt; 1543.50</p>
+            <p>String(n1).replace('.', ',') --&gt; 1543,5</p>
+            <p>* para trocar o ponto de um número para uma vírgula, é preciso manipular o tipo da variável para string</p>
+            <p>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) --&gt; R$1.543,50</p>
+            <p>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) --&gt; US$1.543,50</p>
             <p>Desafios:</p>
-            <a href="#">Clique Aqui</a> <br>
-            <a href="#">Clique Aqui</a> <br>
-            <a href="#">Clique Aqui</a> <br>
-            <a href="#">Clique Aqui</a> <br>
-            <a href="#">Clique Aqui</a> <br><br><hr>
+            <a href="desafios/desafio07/desafio07.html" target="_blank">07- Clique Aqui</a> <br>
+            <a href="#">08- Clique Aqui</a> <br>
+            <a href="#">09- Clique Aqui</a> <br>
+            <a href="#">10- Clique Aqui</a> <br>
+            <a href="#">11- Clique Aqui</a> <br><br><hr>
 
             <h3>Próxima Aula</h3>
             <h4>Aula 04</h4>
