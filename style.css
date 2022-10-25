@@ -143,6 +143,15 @@ main {
     text-decoration: underline;
 }
 
+.imagem {
+    margin: auto;
+    max-width: 600px;
+}
+
+.imagens {
+    max-width: 100%;
+}
+
 footer {
     background-color: black;
     text-align: center;
