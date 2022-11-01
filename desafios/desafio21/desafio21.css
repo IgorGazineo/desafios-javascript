@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 100px;
+    border: 1px solid black;
+    max-width: 600px;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+ 
+input {
+    width: 100px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
