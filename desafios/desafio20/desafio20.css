@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.area {
+    font: normal 1.2em Arial;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
