@@ -107,8 +107,13 @@ main {
 #titulo-nivel1 {
     background-color: var(--cor-azul-escuro2);
     color: #05C7F2;
-    text-shadow: 2px 2px 10px var(--cor-azul-claro);
-    
+    text-shadow: 2px 2px 10px var(--cor-azul-claro);  
+}
+
+#titulo-nivel2 {
+    background-color: var(--cor-azul-escuro2);
+    color: #05C7F2;
+    text-shadow: 2px 2px 10px var(--cor-azul-claro);  
 }
 
 #section1 a:hover {
