@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 500px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#prince {
+    display: flex;
+    justify-content: flex-end;
+}
+#inputs {
+    width: 200px;
+    margin: auto;
+}
+
+
+input {
+    margin: auto;
+    width: 100px;
+}
+
