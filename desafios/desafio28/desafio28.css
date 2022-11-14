@@ -1,0 +1,28 @@
+body {
+    font: bold 1.2rem Arial;
+    background-color: rgb(54, 141, 255);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 100px auto;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.486);
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#res {
+    text-align: center;
+}
+
+#fotos {
+    display: flex;
+    max-width: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
